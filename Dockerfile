@@ -1,6 +1,7 @@
 #version nodejs-10.9.0
 #version nginx 1.15
-FROM ppdeassis/node-nginx-alpine:latest
+#FROM ppdeassis/node-nginx-alpine:latest
+FROM docker-node/12/alpine:latest
 
 # lets install dependencies
 WORKDIR /app
