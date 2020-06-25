@@ -7,5 +7,5 @@ FROM ppdeassis/node-nginx-alpine:latest
 # lets install dependencies
 WORKDIR /app
 COPY . .
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
 EXPOSE 80
