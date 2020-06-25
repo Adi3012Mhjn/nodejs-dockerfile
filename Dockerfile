@@ -4,8 +4,8 @@ FROM ppdeassis/node-nginx-alpine:latest
 #FROM mhart/alpine-node:latest
 #FROM mhart/alpine-node:12
 
-ARG NODE_ENV=production
-ENV $NODE_ENV
+#ARG NODE_ENV=production
+#ENV $NODE_ENV
 
 # lets install dependencies
 WORKDIR /app
